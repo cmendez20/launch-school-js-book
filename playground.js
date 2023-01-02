@@ -7,14 +7,26 @@
 //   console.log(greeting)
 // }
 
-let array = [1, 2, 3, 4];
-let index = 0;
+// let array = [1, 2, 3, 4];
+// let index = 0;
 
-while (index < array.length) {
+// while (index < array.length) {
 
 
 
   
-  console.log(array[index])
-  index++;
+//   console.log(array[index])
+//   index++;
+// }
+
+// let i = 0;
+// while (i <= 40) {
+//   if (i % 2 !== 0) console.log(i);
+//   i++
+// }
+
+let fish = ['Dory', 'Marlin', 'Gill', 'Nemo', 'Bruce'];
+for (const val of fish) {
+  console.log(val);
+  if (val === 'Nemo') break;
 }
